@@ -1,8 +1,8 @@
-build_image: magwas/edemotest:xslt
+build_image: edemo/pdengine:latest
 language: python
 python:
   - 2.7
 archive: true
 script:
-- ./bin/script
-- ./bin/publish
+- ./tools/script
+- ./tools/publish
